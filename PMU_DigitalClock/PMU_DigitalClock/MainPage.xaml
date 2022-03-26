@@ -4,10 +4,12 @@
              x:Class="PMU_DigitalClock.MainPage"
              BackgroundColor="#042940">
 
-    <AbsoluteLayout x:Name="clockLayout"
+    <StackLayout x:Name="clockLayout"
                     VerticalOptions="Center"
-                    HorizontalOptions="Center">
-        
-    </AbsoluteLayout>
+                    HorizontalOptions="Center"
+                    Orientation="Horizontal"
+                    Spacing="8">
+
+    </StackLayout>
 
 </ContentPage>
